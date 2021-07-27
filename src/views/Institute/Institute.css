@@ -1,0 +1,15 @@
+.Institute {
+    width: 100%;
+}
+
+.Institute form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Institute form .Button-Wrapper button {
+    margin: 8px 24px;
+}

@@ -1,0 +1,26 @@
+.NavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 48px;
+    border-radius: 5px;
+    background: var(--white);
+}
+
+.NavBar .Tab {
+    display: block;
+    padding: 12px 0;
+    outline: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--primary);
+    transition: 0.25s;
+}
+
+.NavBar .Tab.Active {
+    color: var(--secondary);
+    border-color: var(--secondary);
+}

@@ -1,0 +1,49 @@
+.Input {
+    width: 800px;
+    margin-bottom: 32px;
+}
+
+.Input label, .Input input, .Input textarea, .Input select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Input .Img-Wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Input div img {
+    width: 200px;
+}
+
+.Input input[type=file] {
+    width: 70%;
+}
+
+.Input label {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+
+.Input input, .Input textarea, .Input select {
+    border: 1.5px solid var(--grey);
+    border-radius: 5px;
+    padding: 10px 16px;
+    font-size: 1rem;
+    color: var(--dark-grey);
+    background: var(--white);
+    transition: 0.2s;
+}
+
+.Input textarea {
+    height: 200px;
+}
+
+.Input input:focus, .Input textarea:focus {
+    color: var(--black);
+    border-color: var(--primary);
+}

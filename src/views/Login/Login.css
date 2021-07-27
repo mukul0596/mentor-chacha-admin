@@ -1,0 +1,66 @@
+.Login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login .Cover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.Login .Cover img {
+    width: 100px;
+}
+
+.Login .Cover .Title {
+    font-size: 1.75rem;
+    color: var(--primary);
+}
+
+.Login .Cover .Title span {
+    color: #23374D;
+}
+
+.Login form {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login form input {
+    width: calc(100% - 36px);
+    outline: none;
+    border: 2px solid var(--white);
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background: var(--white);
+    font-size: 1.25rem;
+    color: #23374D;
+}
+
+.Login form input:focus {
+    border: 2px solid var(--primary);
+}
+
+.Login form .Forgot-Password-Container {
+    width: 100%;
+    margin: 8px;
+    text-align: end;
+}
+
+@media (max-width: 500px) {
+    .Login form {
+        width: 80%;
+    }
+}

@@ -1,0 +1,15 @@
+.Test {
+    width: 100%;
+}
+
+.Test form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Test form .Button-Wrapper button {
+    margin: 8px 24px;
+}

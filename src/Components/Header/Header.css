@@ -1,0 +1,25 @@
+.Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px 32px;
+    background: var(--primary);
+    box-sizing: border-box;
+}
+
+.Header .Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.Header .Title img {
+    width: 50px;
+    margin-right: 16px;
+}

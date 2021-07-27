@@ -1,0 +1,93 @@
+.Test-Response {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Test-Response .Question-Container {
+    width: 100%;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+.Test-Response .Question-Container .Subject {
+    width: 100%;
+    border-radius: 5px;
+    padding: 8px 0;
+    font-size: 1.25rem;
+    text-align: center;
+    color: var(--white);
+    background: var(--primary);
+}
+
+.Test-Response .Question-Container .Question-Card {
+    width: 100%;
+    padding: 12px 24px;
+    margin: 16px 0;
+    border-radius: 7.5px;
+    background: var(--white);
+    box-sizing: border-box;
+}
+
+.Test-Response .Question-Container .Question-Card .Title {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+
+.Test-Response .Question-Container .Question-Card .Question {
+    margin-bottom: 8px;
+    font-size: 1rem;
+    color: var(--black);
+}
+
+.Test-Response .Question-Container .Question-Card .Row {
+    display: flex;
+    align-items: center;
+}
+
+.Test-Response .Question-Container .Question-Card label {
+    color: var(--black);
+    margin-left: 12px;
+}
+
+.Test-Response .Question-Container .Question-Card label.Blue {
+    display: block;
+    margin-bottom: 12px;
+    margin-left: 0;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+
+.Test-Response .Question-Container .Question-Card input, .Test-Response .Question-Container .Question-Card textarea {
+    padding: 6px 8px;
+    margin: 4px 8px;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--black);
+    background: var(--white);
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.Test-Response .Question-Container .Question-Card input[type=text], .Test-Response .Question-Container .Question-Card textarea {
+    width: calc(100% - 16px);
+}
+
+.Test-Response .Question-Container .Question-Card input:focus, .Test-Response .Question-Container .Question-Card textarea:focus {
+    border-color: var(--primary);
+}
+
+.Test-Response .Button-Wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Test-Response .Button-Wrapper button {
+    margin: 8px 24px;
+}

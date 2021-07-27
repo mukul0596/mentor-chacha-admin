@@ -1,0 +1,99 @@
+.Test-Paper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Test-Paper .Question-Container {
+    width: 100%;
+    padding: 0 32px;
+    box-sizing: border-box;
+}
+
+.Test-Paper .Question-Container .Question-Card {
+    width: 100%;
+    padding: 16px 48px;
+    margin: 16px 0;
+    border-radius: 7.5px;
+    background: var(--white);
+    box-sizing: border-box;
+}
+
+.Test-Paper .Question-Container .Question-Card .Title {
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+
+.Test-Paper .Question-Container .Question-Card label {
+    color: var(--dark-grey);
+}
+
+.Test-Paper .Question-Container .Question-Card label.Blue {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+    color: var(--primary);
+}
+
+.Test-Paper .Question-Container .Question-Card textarea, .Test-Paper .Question-Container .Question-Card input, .Test-Paper .Question-Container .Question-Card select {
+    padding: 6px 8px;
+    margin-left: 8px;
+    outline: none;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    color: var(--black);
+    background: var(--white);
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+.Test-Paper .Question-Container .Question-Card textarea:focus, .Test-Paper .Question-Container .Question-Card input:focus, .Test-Paper .Question-Container .Question-Card select:focus {
+    border-color: var(--primary);
+}
+
+.Test-Paper .Question-Container .Question-Card textarea {
+    width: 100%;
+    margin-left: 0;
+}
+
+.Test-Paper .Question-Container .Question-Card .Small {
+    width: 80px;
+}
+
+.Test-Paper .Question-Container .Question-Card .Row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.Test-Paper .Question-Container .Question-Card .Options-Container button {
+    padding: 6px 16px;
+    margin-right: 24px;
+    outline: none;
+    border: 1px solid var(--primary);
+    border-radius: 25px;
+    font-size: 0.8rem;
+    color: var(--primary);
+    background: transparent;
+    cursor: pointer;
+}
+
+.Test-Paper .Question-Container .Question-Card .Options-Container input {
+    margin-bottom: 8px;
+}
+
+.Test-Paper .Button-Wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Test-Paper .Button-Wrapper button {
+    margin: 8px 24px;
+}

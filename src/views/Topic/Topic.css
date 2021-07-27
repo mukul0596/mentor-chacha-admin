@@ -1,0 +1,15 @@
+.Topic {
+    width: 100%;
+}
+
+.Topic form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Topic form .Button-Wrapper button {
+    margin: 8px 24px;
+}

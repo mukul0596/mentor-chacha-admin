@@ -1,0 +1,15 @@
+.Recommendation {
+    width: 100%;
+}
+
+.Recommendation form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.Recommendation form .Button-Wrapper button {
+    margin: 8px 24px;
+}
